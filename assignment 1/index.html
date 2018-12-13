@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="CheckLunch">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Check if too much</title>
+  </head>
+  <body>
+    <h1>Check lunch!</h1>
+    <div ng-controller="CheckLunchController">
+      <input type="text" ng-model="lunch" ng-keyup="check();">
+      Inside my input is: {{lunch}}
+      <br>
+      {{howmuch}}
+    </div>
+  </body>
+</html>
+
+
