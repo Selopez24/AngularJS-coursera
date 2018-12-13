@@ -14,7 +14,7 @@ function CheckLunchController($scope) {
         const splited = $scope.lunch.split(',');
         var howmuch ="";
 
-        if(splited[0]==''){
+        if($scope.lunch==''){
     
             howmuch= "error!";
                    
